@@ -40,7 +40,7 @@ p, a {font-weight: 400;}
   width: 150px;
   display:block;
   position: absolute;
-  border-bottom:  5px solid #6266ea;
+  border-bottom:  5px solid rgb(32, 173, 233);
   padding-top: .5em;
 }
 .typo-space-line-center::after {
@@ -78,17 +78,17 @@ p, a {font-weight: 400;}
 } */
 .intro .intro-header {
   border-radius: 0.5rem;
-  padding: 2rem 2.5rem;
-  background-color: rgba(0,0,0,0.5);
+  padding: 2rem 5.5rem;
+  background-color: rgba(248, 243, 243, 0.5);
 }
 .intro h1 {
   font-size: 4rem;
   margin-bottom: 0.75rem;
-  color: white;
+  color: rgb(23, 86, 110);
 }
 .intro p {
   font-size: 1.75rem;
-  color: white;
+  color: rgb(32, 173, 233);
 }
 
 @media (max-width: 700px) {
@@ -98,6 +98,16 @@ p, a {font-weight: 400;}
   .intro p { font-size: 1.25rem; }
 }
 /* Slider end */
+/* Title */
+
+
+.typing a{
+  text-decoration: none;
+  color: rgb(23, 86, 110);
+  font-weight: 600;
+}
+
+/* Tile end */
 /* Home */
 
 #index_banner {
@@ -114,7 +124,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: #6266ea !important;
+  color: rgb(32, 173, 233) !important;
   font-weight: 400;
   text-decoration: none;
   font-size: 4em;
@@ -125,7 +135,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: #6266ea !important;
+  background-color: rgb(32, 173, 233)!important;
 }
 .service-wrapper .service-footer {
   max-width: 720px;
@@ -154,8 +164,8 @@ p, a {font-weight: 400;}
   border-radius: 10px !important;
 }
 .recent-work .recent-work-vertical {
-	background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+	/* background: rgb(255,255,255); */
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 3.333%, rgb(32, 173, 233)66.666%, rgba(255,255,255,0) 99.999%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
@@ -171,7 +181,7 @@ p, a {font-weight: 400;}
   position: absolute;
 }
 .recent-work .recent-work-vertical:hover * {
-  color: white;
+  /* color: white; */
   transition: .5s;
 }
 /* About */
@@ -190,12 +200,12 @@ p, a {font-weight: 400;}
   width: 8rem;
 }
 .partner-wap {
-  background-color: #7276ec;
+  background-color: rgb(32, 173, 233);
   transition: 1s;
   cursor: pointer;
 }
 .partner-wap:hover {
-  background-color: #b1b3f5;
+  background-color: rgb(32, 173, 233);
 }
 .why-us {
   background: rgb(239,239,253);
